@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAKANI - NIÑOS</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.12.1/dist/sweetalert2.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="conteiner-fluid">
+        <div >
+            <div class="parte-superior">
+                <a href="./index.html"><h1>PAKANI</h1></a>
+                <div class="carrito">
+                    <img src="./assets/carrito.png" alt="carrito de compras" id="carrito-img">
+                    <span id="contadorCarrito" class="contador">0</span>
+                </div>
+            </div>
+            <div class="parte-inferior">
+                <ul>
+                    <li><a href="./hombre.html">HOMBRE</a></li>
+                    <li><a href="./mujer.html">MUJER</a></li>
+                    <li><a href="./niños.html">NIÑOS</a></li>
+                </ul>
+            </div>
+        </div>
+        <section id="oculto" class="oculto">
+            <div id="carrito">
+                <h2>CARRITO</h2>
+                <ul>
+                    <li id="carrito-items">
+                        
+                    </li>
+                </ul>
+                <div id="finalizar">
+                    <div id="monto">
+                        <h3>TOTAL</h3>
+                        <p id="total"></p>
+                        <p id="precio-dolar"></p>
+                    </div>
+                    <div class="linea"></div>
+                    <div class="fin">
+                        <input type="button" value="FINALIZAR COMPRA" id="fin-compra">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+    <main>
+        <div id="productos-niños"></div>
+    </main>
+    <footer>
+        <section>
+            <div class="copyright">
+                <h4>Pagina sin fines de lucro<br>Copyright Santiago Muñoz©</h4>
+            </div>
+            <div>
+                <h3>AYUDA</h3>
+                <p>Envios y entregas</p>
+                <p>Devoluciones</p>
+                <p>Cambios</p>
+            </div>
+            <div>
+                <h3>NOSOTROS</h3>
+                <p>Quienes somos</p>
+                <p>Sucursales</p>
+            </div>
+        </section>
+        <div class="logos-footer">
+            <ul>
+                <li><a href="" target="_blank"><img src="./assets/facebook.png" alt="logo de facebook, el cual es un circulo con una F en el medio"></li></a>
+                <li><a href="" target="_blank"><img src="./assets/instagram.png" alt="logo de instagram, cuadrado que tiene un circulo en el medio y un punto negro en la parte superior derecha"></li></a>
+                <li><a href="https://www.linkedin.com/in/santiago-mu%C3%B1oz-144738299/" target="_blank"><img src="./assets/linkedin.png" alt="logo de linkedin, cuadrado qie adentro tiene escrito IN"></li></a>
+            </ul>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.12.1/dist/sweetalert2.all.min.js"></script>
+    <Script src="./js/niños.js"></Script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+</body>
+</html>

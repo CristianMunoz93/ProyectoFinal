@@ -1,0 +1,47 @@
+@media (max-width:1024px){
+    main{
+        .conteiner{
+            
+            .slide{
+                max-width: 800px;
+                width: 160vh;
+                ul{
+                    li{
+                        img{
+                            width: 800px;
+                        }
+                    }
+                }
+            }
+        }
+        div{
+            .logos{
+                img{
+                    width: 200px;
+                    height: 160px;
+                }
+            }
+        }
+    }
+    footer{
+        section{
+            grid-template-columns: repeat(3,300px);
+            .copyright{
+                h4{
+                    font-size: 15px;
+                }
+            }
+        }
+        .logos-footer{
+            ul{
+                margin-right: 0px;
+                justify-content: center;
+            }
+        }
+    }
+    .visible{
+        #carrito{
+            width: 49%;
+        }
+    }
+}
